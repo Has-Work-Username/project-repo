@@ -32,6 +32,12 @@ body{
 .padding{
     padding-right: 40px;
 }
+.padding a:hover{
+    color: #f83c12;
+}
+.padding a:active{
+   color: #fc6f4f;
+}
 .bar-item img{
     padding-right: 10px;
 }
@@ -78,7 +84,13 @@ body{
     margin-top: 5px;
 } 
 .Navbar-items a{
-    padding-right: 50px;
+    margin-right: 50px;
+}
+.Navbar-items a:hover{
+    color: #f83c12; 
+}
+.Navbar-items a:active{
+    color: #fc6f4f;
 }
 .Main{
     text-decoration: none;
@@ -111,7 +123,6 @@ body{
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
   }
   
@@ -133,6 +144,12 @@ body{
 .tel a{
     text-decoration: none;
 }
+.tel a:hover{
+   color: #f83c12; 
+}
+.tel a:active{
+    color: #fc6f4f;
+}
 .Header-content-2{
     margin-top: 90px;
     padding-left: 90px;
@@ -144,8 +161,7 @@ body{
     color: #FFFFFF;
 }
 .Header-content-2 p{
-    font-size: 17   px;
-    Line-height: 28,82px;
+    font-size: 17px;
     color: #FFFFFF;
 }
 .span-content-2{
@@ -153,6 +169,7 @@ body{
     font-size: 32px;
 }
 .header-abuot{
+    margin-left: -30px;
     padding-top: 50px;
 }
 .header-abuot img{
@@ -163,7 +180,9 @@ body{
     font-size: 20px;
 }
 .header-about-2{
-    margin-left: 105px;
+    color:#F4E9BF;
+    margin-top: 30px;
+    margin-left: 80px;
     font-size: 16px;
 }
 .header-btn{
@@ -172,9 +191,15 @@ body{
     margin-top: 100px;
     margin-left: 120px;
     cursor: pointer;
-    outline: none;
     background-color: #FF623D;
+    border: none;
     border-radius: 10px;
+}
+.header-btn:hover{
+    background-color: #fc6f4f;
+}
+.header-btn:active{
+    background-color: #f83c12;
 }
 .header-btn a{
     text-decoration: none;
@@ -184,6 +209,9 @@ body{
 }
 .posetit img{
     padding-right: 25px;
+}
+.posetit:hover{
+    color: #f83c12;
 }
 
 /* End of Header */
