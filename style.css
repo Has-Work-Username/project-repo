@@ -195,6 +195,9 @@ body{
     border: none;
     border-radius: 10px;
 }
+.header-btn img{
+    padding-right: 17px;
+}
 .header-btn:hover{
     background-color: #fc6f4f;
 }
@@ -213,7 +216,9 @@ body{
 .posetit:hover{
     color: #f83c12;
 }
-
+.posetit:active{
+    color: #fc6f4f;
+}
 /* End of Header */
 
 /* hali tayyormas */
