@@ -280,10 +280,10 @@ main{
     bottom: 220px;
     padding: 8px 16px;
     color: #FFFFFF;
+    background-color: #DA5C3E;
     font-size: 12px;
     width: 92px;
     height: 32px;
-    background-color: #DA5C3E;
 }
 .box-1 img{
     border-radius: 20px 0px;
